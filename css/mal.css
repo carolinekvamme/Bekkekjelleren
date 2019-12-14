@@ -82,7 +82,7 @@ footer{
 
 @media (max-width: 1000px){
   body{
-    font-size: 1.7vw;
+    font-size: 4vw;
   }
   nav{
     position: static;
