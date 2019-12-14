@@ -1,0 +1,130 @@
+body{
+  font-size: 1.2vw;
+}
+nav{
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.navbar{
+  display: grid;
+  grid-template-columns: 3fr 8fr;
+  width: 94%;
+  padding-bottom: 1%;
+  margin: auto;
+  background-color: white;
+}
+#logo{
+  margin-top: 5%;
+  width: 70%;
+}
+.midten{
+  display: flex;
+  margin-top: 2%;
+  padding: 1%;
+  justify-content: center;
+  margin-left: 33%;
+}
+.midten a{
+  text-decoration: none;
+  color: black;
+  padding: 1%;
+}
+.navbar .active{
+  text-decoration: underline;
+}
+.midten a:hover:not(.active){
+  text-decoration: underline;
+}
+.icon{
+  display: none;
+}
+
+
+footer{
+  width: 100%;
+  background: #00121b;
+  display: block;
+  margin-top: 5%;
+  padding-bottom: 1%;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+}
+.text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.media{
+  display: flex;
+  flex-direction: column;
+  padding-top: 2%;
+  text-decoration: none;
+}
+.media p, .media img{
+  margin: auto;
+}
+#facebook, #instagram, #linkedin{
+  width: 50%;
+  margin-bottom: 3%;
+}
+.media p{
+  color: white;
+  text-decoration: none;
+}
+
+
+@media (max-width: 1000px){
+  body{
+    font-size: 1.7vw;
+  }
+  nav{
+    position: static;
+  }
+  .navbar{
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+  #logo{
+    display: block;
+    width: 50%;
+    margin-left: -4%;
+    margin-top: 1%;
+  }
+  .midten.toggleCls{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-left: 0;
+    padding-bottom: 2%;
+    margin-top: 0;
+  }
+  .midten.toggleCls a{
+    border-bottom: 1px solid;
+  }
+  .midten.toggleCls a:hover{
+    text-decoration: none;
+  }
+  .navbar .active{
+    text-decoration: none;
+  }
+  .midten{
+    display: none;
+  }
+  .icon{
+    display: block;
+    margin-left: auto;
+    margin-top: -6%;
+  }
+  .icon i{
+    width: 100%;
+  }
+
+
+}

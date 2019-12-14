@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+  font-family: copperplate, serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+main{
+  width: 90%;
+  margin: auto;
+  margin-top: 7%;
+  line-height: 1.5em;
+  text-align: justify;
+}
+main h2{
+  margin-top: 3%;
+  text-align: center;
+}
+main img{
+  width: 100%;
+  margin-top: 3%;
+}
+@media (max-width: 1000px){
+  main{
+    margin-top: 0;
+  }
+}

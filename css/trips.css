@@ -1,0 +1,62 @@
+body{
+  margin: 0;
+  font-family: copperplate, serif;
+  font-weight: 300;
+  font-style: normal;
+}
+main{
+  width: 100%;
+  margin: auto;
+  margin-top: 6%;
+}
+main img{
+  width: 100%;
+}
+.gridparagraph{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  margin: auto;
+  margin-top: -1%;
+}
+.gridparagraph p{
+  text-align: justify;
+  line-height: 1.5em;
+}
+.paragraph{
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+  text-align: justify;
+  line-height: 1.5em;
+}
+#map{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  width: 50%;
+}
+#napaimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  width: 57%;
+}
+#piedemonteimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  width: 35%;
+}
+
+@media (max-width: 1000px){
+  main{
+    margin-top: 0;
+  }
+  .gridparagraph{
+    grid-template-columns: 1fr;
+  }
+}

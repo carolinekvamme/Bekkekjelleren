@@ -1,0 +1,64 @@
+body{
+  margin: 0;
+  font-family: copperplate, serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+main{
+  width: 100%;
+  margin: auto;
+  margin-top: 7%;
+}
+.bekkekjelleren{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  margin: auto;
+  margin-top: 16.5%;
+  margin-bottom: 16.5%;
+}
+.bekkekjelleren img{
+  margin-left: auto;
+  width: 50%;
+}
+.infotext{
+  margin-top: 15%;
+}
+.infotext a{
+  color: black;
+}
+.infotext p{
+  text-align: justify;
+}
+@media (max-width: 1000px){
+  main{
+    margin-top: 0;
+  }
+  .bekkekjelleren{
+    grid-template-columns: 1fr;
+    margin-top: 0;
+    margin-bottom: 4%;
+  }
+  .bekkekjelleren img{
+    width: 50%;
+    margin-left: 40%;
+  }
+  .bekkekjelleren img{
+    margin: auto;
+    margin-bottom: 2%;
+  }
+  .infotext{
+    text-align: center;
+    margin-top: 0;
+  }
+  .infotext p{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 4%;
+  }
+  footer{
+    margin-top: 0 !important;
+  }
+}
