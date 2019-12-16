@@ -82,7 +82,7 @@ footer{
 
 @media (max-width: 1000px){
   body{
-    font-size: 4vw;
+    font-size: 3vw;
   }
   nav{
     position: static;
@@ -120,7 +120,7 @@ footer{
   .icon{
     display: block;
     margin-left: auto;
-    margin-top: -6%;
+    margin-top: -8%;
   }
   .icon i{
     width: 100%;
