@@ -47,4 +47,14 @@ footer{
   main{
     margin-top: 0;
   }
+  .trips p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    opacity: 1;
+  }
+  .trips p a{
+    font-size: 1em;
+  }
 }
