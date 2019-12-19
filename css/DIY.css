@@ -36,5 +36,23 @@ main p{
   main{
     margin-top: 0;
   }
-
+  .GridImg{
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+  }
+  .marg2{
+    margin-left: 1%; 
+  }
+}
+@media (max-width: 700px) {
+  .GridImg{
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+  .GridImg img{
+    margin-bottom: 2%;
+  }
+  .marg{
+    margin-left: 2%;
+  }
 }
